@@ -1,0 +1,16 @@
+.primaryContainer {
+  text-align: center;
+  text-decoration: none;
+  border: black 1px solid;
+  margin-top: 20%;
+}
+
+li {
+  list-style: none;
+}
+
+.cardsContainer{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Creates three columns of equal width */
+  gap: 20px; /* Adds space between columns */
+}

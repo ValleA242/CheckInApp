@@ -11,10 +11,12 @@ function App() {
   return (
     <>
       <CheckInData />
-      <GreenMoodCard />
-      <BlueMoodCard />
-      <YellowMoodCard />
-      <RedMoodCard />
+      <div className='cardsContainer'>
+        <GreenMoodCard />
+        <BlueMoodCard />
+        <YellowMoodCard />
+        <RedMoodCard />
+      </div>
     </>
   )
 }
