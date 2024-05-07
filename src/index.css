@@ -14,3 +14,12 @@ li {
   grid-template-columns: repeat(4, 1fr); /* Creates three columns of equal width */
   gap: 20px; /* Adds space between columns */
 }
+
+img {
+  height: 70%;
+}
+
+.formContainer {
+  text-align: center;
+  margin-top: 5%;
+}
