@@ -3,7 +3,7 @@ export function BlueMoodCard() {
     <>
         <div className="primaryContainer">
             <h1>Blue Zone</h1>
-            <img src="/assets/images/blue.PNG" alt="picture of Sadness from Inside Out" />
+            <img src="/public/images/blue.png" alt="picture of Sadness from Inside Out" />
             <ul>
                 <li>Sad</li>
                 <li>Bored</li>

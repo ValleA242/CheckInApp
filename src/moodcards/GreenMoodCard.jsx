@@ -3,7 +3,7 @@ export function GreenMoodCard() {
     <>
         <div className="primaryContainer">
             <h1>Green Zone</h1>
-            <img src="/assets/images/joy.PNG" alt="picture of joy from Inside Out" />
+            <img src="/public/images/joy.PNG" alt="picture of joy from Inside Out" />
             <ul>
                 <li>Happy</li>
                 <li>Focused</li>
