@@ -11,3 +11,5 @@ const MoodCard = ({ title, imagePath, feelings }) => {
         </div>
     );
 }
+
+export default MoodCard

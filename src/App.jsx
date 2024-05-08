@@ -4,10 +4,10 @@ import { CheckInData } from "./CheckInData";
 
 function App() {
   const [cards, setCards] = useState([
-    { title: 'Blue Zone', imagePath: "/images/blue.png", feelings: ['Sad', 'Bored', 'Tired'] },
-    { title: 'Green Zone', imagePath: "/images/green.png", feelings: ['Happy', 'Focused', 'Calm'] },
-    { title: 'Yellow Zone', imagePath: "/images/yellow.png", feelings: ['Excited', 'Energetic', 'Cheerful'] },
-    { title: 'Red Zone', imagePath: "/images/red.png", feelings: ['Angry', 'Frustrated', 'Anxious'] }
+    { title: 'Blue Zone', imagePath: "public/images/blue.png", feelings: ['Sad', 'Bored', 'Tired'] },
+    { title: 'Green Zone', imagePath: "public/images/joy.png", feelings: ['Happy', 'Focused', 'Calm'] },
+    { title: 'Yellow Zone', imagePath: "public/images/fear.png", feelings: ['Excited', 'Energetic', 'Cheerful'] },
+    { title: 'Red Zone', imagePath: "public/images/anger.png", feelings: ['Angry', 'Frustrated', 'Anxious'] }
   ]);
 
   return (
