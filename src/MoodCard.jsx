@@ -1,4 +1,5 @@
 const MoodCard = ({ title, imagePath, feelings }) => {
+    
     return (
         <div className="primaryContainer">
             <h1>{title}</h1>

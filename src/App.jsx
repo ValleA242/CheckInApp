@@ -15,6 +15,9 @@ function App() {
       <div className="formContainer">
         <CheckInData />
       </div>
+      <div>
+        <h1 className="mainHeading">What Zone are you in?</h1>
+      </div>
       <div className="cardsContainer">
         {cards.map((card, index) => (
           <MoodCard key={index} title={card.title} imagePath={card.imagePath} feelings={card.feelings} />

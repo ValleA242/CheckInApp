@@ -2,11 +2,13 @@
   text-align: center;
   text-decoration: none;
   border: black 1px solid;
-  margin-top: 20%;
+  margin-top: 5%;
 }
 
 li {
   list-style: none;
+  font-size: 18px;
+  margin-right: 12%;
 }
 
 .cardsContainer{
@@ -22,4 +24,16 @@ img {
 .formContainer {
   text-align: center;
   margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+label {
+  margin-right: 2px;
+  margin-left: 10px;
+  font-size: 22px;
+}
+
+.mainHeading {
+  text-align: center;
+  font-size: 40px;
 }
