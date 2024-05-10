@@ -31,7 +31,7 @@ function App() {
             title={card.title}
             imagePath={card.imagePath}
             feelings={card.feelings}
-            onClick={toggleSelection(card.title)}
+            
           />
         ))}
       </div>
