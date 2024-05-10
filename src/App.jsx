@@ -14,6 +14,7 @@ function App() {
 
   const toggleSelection = (cardTitle) => {
     selectedCard === cardTitle ? setSelectedCard(null) : setSelectedCard(cardTitle);
+    console.log(cardTitle)
   }
 
   return (
@@ -26,7 +27,12 @@ function App() {
       </div>
       <div className="cardsContainer">
         {cards.map((card, index) => (
-          <MoodCard key={index} title={card.title} imagePath={card.imagePath} feelings={card.feelings} />
+          <MoodCard key={index}
+            title={card.title}
+            imagePath={card.imagePath}
+            feelings={card.feelings}
+            onClick={toggleSelection(card.title)}
+          />
         ))}
       </div>
     </>
