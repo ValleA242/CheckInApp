@@ -10,10 +10,10 @@ function App() {
     { title: 'Red Zone', imagePath: "public/images/anger.png", feelings: ['Angry', 'Frustrated', 'Anxious'] }
   ]);
 
-  const [selectedCard, setSelectedCard] = useState(null); 
+  const [selectedCard, setSelectedCard] = useState(null);
 
   const toggleSelection = (cardTitle) => {
-    selectedCard === cardTitle ? setSelectedCard(null) : serSelectedCard(cardTitle);
+    selectedCard === cardTitle ? setSelectedCard(null) : setSelectedCard(cardTitle);
   }
 
   return (
